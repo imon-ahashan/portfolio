@@ -1,0 +1,237 @@
+body{
+    background-color: #f2edf4;
+}
+
+
+/*NAVBAR*/
+.navbar {
+    background-color: rgba(93, 0, 146, .4);
+}
+
+
+
+.navbar a{
+    padding: 5px;
+    color:#ffffff;
+    transition: 1s;
+}
+
+.navbar a:hover{
+    color:#ffffff;
+    background-color:rgba(255, 0, 135, .4);
+}
+
+
+/*BANNER*/
+
+.banner{
+    background-image: url("../img/g5.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+
+
+}
+.banner .banner-text a{
+    color:#ffffff;
+    margin:10px;
+}
+.banner .banner-text a:hover{
+    color:rgba(255, 255, 255, .7);
+
+}
+
+
+
+.banner-text{
+    padding: 100px 0 100px;
+    text-align: center;
+    color:#ffffff;
+
+}
+
+.bnr{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/*HOME*/
+.home{
+    margin-top: 100px;
+}
+.home .card{
+    margin-bottom: 10px;
+}
+.home .card-header{
+    text-align: center;
+}
+.home .card-body{
+    background-color: #fefff4;
+}
+
+.quate{
+    background-image: url("../img/quate.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:200px;
+
+}
+
+.quate .quate-d{
+   background-color: rgba(0, 0, 0, .15);
+    height:200px;
+}
+.quate .quate-text{
+    color:#ffffff;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+@media(max-width: 700px){
+    .quate .quate-text{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 499px){
+    .quate .quate-text{
+        font-size: 15px;
+    }
+}
+
+/*ABOUT*/
+.about{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.about-heading{
+    margin-top: 40px;
+   color: #ff0087;
+    text-align: center;
+}
+
+.about .about-content {
+    margin: 20px 0 0 0;
+}
+
+
+/*PORTFOLIO*/
+.portfolio-heading{
+    margin-top:40px;
+    text-align: center;
+    color:#ff0087;
+}
+.education{
+    margin-top:100px;
+    margin-bottom:40px;
+}
+
+.skill{
+    background-image: url("../img/b10.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.skill-d{
+    text-align: center;
+    color:#ffffff;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+.project{
+    background-color:#ff0087 ;
+
+}.project h2{
+    color:#ffffff ;
+}
+
+.project .card{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.interest{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.interest .img{
+   background-image: url("../img/b10.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+
+
+
+/*Contact*/
+.contact-heading{
+    text-align: center;
+    margin-top: 40px;
+    color:#ff0087;
+}
+.contact{
+    margin-top: 100px;
+}
+
+.form-area{
+    margin:40px 0;
+    padding:40px;
+}
+.contact input{
+    margin:10px 0;
+}
+.contact .btn{
+    color:whitesmoke;
+    background-color: #ff0087;
+}
+.contact .btn:hover{
+    color:whitesmoke;
+    background-color: rgba(255, 0, 135, .8);
+}
+
+.address{
+    margin-top:60px;
+    padding:25px 40px;
+    color:black;
+}
+
+
+
+@media(max-width:768px){
+    .banner{
+        height: 300px;
+
+    }
+
+    .banner-text{
+        padding: 80px 0 45px;
+    }
+
+    .bnr{
+        height:300px;
+    }
+
+}
+
+
+/*FOOTER*/
+.footer{
+    background-color:  #5d0092;
+    color:#ffffff ;
+    text-align: center;
+    height: 50px;
+    padding:10px;
+}
